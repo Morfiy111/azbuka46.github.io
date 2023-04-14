@@ -16,8 +16,8 @@ a {
 }
 
 a:hover {
-    border-bottom: 1px solid #182a69;
-    color: #182a69;
+    border-bottom: 1px solid #da2508;
+    color: #da2508;
 }
 
 a,
@@ -299,6 +299,7 @@ button.btn-close {
 .main-catalog-title {
     margin-top: 10px;
     padding: 0 15px;
+    font-size: 14px;
 }
 
 .main-catalog-title a {
