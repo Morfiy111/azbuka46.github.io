@@ -257,6 +257,11 @@ button.btn-close {
     font-size: 20px;
 }
 
+.header-logo {
+    background-color: #fff;
+    padding: 10px;
+}
+
 .light-list li:before {
     padding-right: 10px;
     font-weight: bold;
