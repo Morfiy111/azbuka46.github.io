@@ -153,7 +153,7 @@ button.btn-close {
     display: flex;
     justify-content: space-between;
     margin: 20px 0px;
-    align-items: baseline;
+    align-items: flex-start;
 }
 
 .footer-flex-block a {
@@ -242,7 +242,7 @@ button.btn-close {
     position: fixed;
     bottom: 67px;
     outline: none;
-    color: #182a69;
+    color: #3f4049;
     line-height: 30px;
     text-decoration: none;
     cursor: pointer;
@@ -388,40 +388,88 @@ button.btn-close {
     width: 31%;
 }
 
-@media (max-width: 1760px) {
-    .main-text-block {
-        top: 30px;
-    }
+.flex-advantages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
 }
 
-@media (max-width: 1555px) {
-    .main-text-block {
-        font-size: 18px;
-    }
+.flex-advantages-item {
+    width: 32%;
 }
 
-@media (max-width: 1400px) {
-    .main-text-block {
-        max-width: 82%;
-    }
-
-    .main-text-block {
-        font-size: 20px;
-    }
-
+.flex-advantages-item img {
+    width: 100%;
 }
 
 @media(max-width:1199px) {
-    .main-text-block {
-        max-width: 100%;
-        left: 30px;
-        right: 30px;
+    .main-catalog-item {
+        width: 32%;
+    }
+
+    .map-block {
+        width: 50%;
+    }
+
+    .flex-advantages-item img {
+        width: 100%;
     }
 }
 
 @media(max-width: 991px) {
     .header-phones a {
         font-size: 18px;
+    }
+
+    .main-page-contacts {
+        flex-direction: column;
+    }
+
+    .map-block,
+    .contact-block {
+        width: 100%;
+    }
+
+    .map-block {
+        margin-bottom: 20px;
+    }
+
+    .header-contacts-row {
+        flex-wrap: wrap;
+    }
+
+    .header-block-btns {
+        width: 100%;
+        display: flex;
+        margin-top: 10px;
+        justify-content: space-between;
+    }
+
+    .navbar-expand-md {
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+
+    .main-catalog-item {
+        width: 49%;
+    }
+
+    .flex-advantages-item:nth-child(2) {
+        display: none;
+    }
+
+    .flex-advantages {
+        align-items: flex-start;
+    }
+
+    .flex-advantages-item {
+        width: 49%;
+    }
+
+    .flex-advantages-item-block {
+        border-bottom: 1px solid #efefef;
+        margin-bottom: 10px;
     }
 }
 
@@ -450,9 +498,6 @@ button.btn-close {
         margin-top: 20px;
     }
 
-    .navbar {
-        justify-content: end;
-    }
 }
 
 @media (max-width: 490px) {
