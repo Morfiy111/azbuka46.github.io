@@ -175,12 +175,24 @@ button.btn-close {
 }
 
 .btn-block-center .page-btn {
-    color: #182a69;
-    border: 2px solid #182a69;
+    color: #3f4049;
+    border: 2px solid #3f4049;
+}
+
+.gray-block {
+    background-color: #3f4049;
+    color: #fff;
+    padding: 40px 0;
+    margin-bottom: 60px;
+}
+
+.registration__agree a:hover {
+    color: #3f4049;
+    border-bottom-color: #3f4049;
 }
 
 .btn-block-center .page-btn:hover {
-    background-color: #182a69;
+    background-color: #3f4049;
     color: #fff;
 }
 
@@ -341,6 +353,39 @@ button.btn-close {
 .header-block-btns .page-btn:hover {
     color: #3f4049;
     background-color: #fff;
+}
+
+.partners-flex-item span {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    padding: 11px 20px;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 20px;
+    transition: all .3s linear;
+}
+
+.partners-flex-item span:hover {
+    background-color: #fff;
+    color: #3f4049;
+}
+
+.gray-block h3 {
+    text-align: center;
+}
+
+.partners-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.partners-flex-item {
+    text-align: center;
+    width: 31%;
 }
 
 @media (max-width: 1760px) {
