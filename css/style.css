@@ -484,6 +484,7 @@ button.btn-close {
     .navbar-dark .navbar-toggler {
         color: #fff;
         border-color: #fff;
+        margin-bottom: 20px;
     }
 
     .navbar-expand-md .navbar-nav .nav-link {
@@ -498,14 +499,57 @@ button.btn-close {
         margin-top: 20px;
     }
 
+    .navbar-expand-md {
+        justify-content: end;
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .navbar-collapse {
+        width: 100%;
+    }
+
+    .navbar-toggler {
+        border: 2px solid transparent;
+    }
 }
 
-@media (max-width: 490px) {
+@media (max-width: 600px) {
     .main-page-contacts {
         flex-direction: column-reverse;
     }
 
     .header-logo img {
         width: 120px;
+    }
+
+    .flex-advantages {
+        flex-wrap: wrap;
+    }
+
+    .flex-advantages-item {
+        width: 100%;
+    }
+
+    .contact-block {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .main-catalog-item {
+        width: 100%;
+    }
+
+    .header-logo {
+        margin-bottom: 10px;
+    }
+
+    .partners-flex-text {
+        font-size: 14px;
+    }
+
+    .dropdown-item {
+        white-space: inherit;
     }
 }
