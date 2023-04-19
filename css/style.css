@@ -293,19 +293,19 @@ button.btn-close {
 
 .main-flex-catalog {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 20px;
     flex-wrap: wrap;
 }
 
 .main-catalog-item {
-    width: 24%;
+    width: 32%;
     margin-bottom: 20px;
     transition: all .3s linear;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding: 10px;
+    padding: 15px;
 }
 
 .main-catalog-image img {
@@ -314,7 +314,6 @@ button.btn-close {
 
 .main-catalog-title {
     margin-top: 10px;
-    padding: 0 15px;
     font-size: 14px;
 }
 
@@ -324,7 +323,6 @@ button.btn-close {
 
 .main-catalog-description {
     color: #3f4049;
-    padding: 15px;
 }
 
 .page-btn {
@@ -333,6 +331,7 @@ button.btn-close {
     border: 2px solid #3f4049;
     padding: 8px 22px;
     font-size: 20px;
+    text-align: center;
 }
 
 .main-catalog-item:hover {
