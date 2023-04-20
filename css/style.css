@@ -332,6 +332,7 @@ button.btn-close {
     padding: 8px 22px;
     font-size: 20px;
     text-align: center;
+    line-height: initial;
 }
 
 .main-catalog-item:hover {
@@ -468,6 +469,12 @@ button.btn-close {
 .list-goods-page i {
     color: #da2508;
     font-size: 20px;
+    margin-right: 10px;
+}
+
+.list-goods-page li {
+    display: flex;
+    align-items: center;
 }
 
 @media(max-width:1199px) {
