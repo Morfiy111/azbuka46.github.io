@@ -477,6 +477,25 @@ button.btn-close {
     align-items: center;
 }
 
+.portfolio-page-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.portfolio-block-item {
+    width: 19%;
+    margin-bottom: 40px;
+    transition: all .3s linear;
+    flex-grow: 1;
+    padding: 5px;
+}
+
+.portfolio-block-item img {
+    width: 100%;
+}
+
+
 @media(max-width:1199px) {
     .main-catalog-item {
         width: 32%;
@@ -599,6 +618,10 @@ button.btn-close {
 
     .navbar-toggler {
         border: 2px solid transparent;
+    }
+
+    .portfolio-block-item {
+        width: 48%;
     }
 }
 
