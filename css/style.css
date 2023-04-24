@@ -420,7 +420,7 @@ button.btn-close {
 
 .good-item-page-img,
 .good-item-description {
-    width: 50%;
+    width: 48%;
 }
 
 .cart-tab-property-title {
@@ -495,6 +495,30 @@ button.btn-close {
     width: 100%;
 }
 
+.good-item-page-img {
+    float: left;
+}
+
+.good-item-description {
+    float: right;
+}
+
+.table-price td {
+    border: 1px solid #efefef;
+    padding: 6px 12px;
+}
+
+.table-price {
+    margin-bottom: 40px;
+}
+
+.line-catalog-price {
+    margin-bottom: 40px;
+}
+
+.table-mobile-scroll {
+    overflow-y: auto;
+}
 
 @media(max-width:1199px) {
     .main-catalog-item {
