@@ -520,6 +520,10 @@ button.btn-close {
     overflow-y: auto;
 }
 
+.bold-text {
+    font-weight: bold;
+}
+
 @media(max-width:1199px) {
     .main-catalog-item {
         width: 32%;
