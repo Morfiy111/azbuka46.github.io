@@ -510,6 +510,7 @@ button.btn-close {
 
 .table-price {
     margin-bottom: 40px;
+    width: 100%;
 }
 
 .line-catalog-price {
@@ -522,6 +523,14 @@ button.btn-close {
 
 .bold-text {
     font-weight: bold;
+}
+
+.colors-flex-block .portfolio-block-item {
+    width: 12%;
+}
+
+.title-color {
+    text-align: center;
 }
 
 @media(max-width:1199px) {
@@ -605,6 +614,10 @@ button.btn-close {
     .good-item-page-img {
         margin-bottom: 20px;
         padding-right: 0;
+    }
+
+    .colors-flex-block .portfolio-block-item {
+        width: 24%;
     }
 }
 
@@ -690,5 +703,9 @@ button.btn-close {
 
     .dropdown-item {
         white-space: inherit;
+    }
+
+    .colors-flex-block .portfolio-block-item {
+        width: 48%;
     }
 }
