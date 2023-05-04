@@ -497,6 +497,7 @@ button.btn-close {
 
 .good-item-page-img {
     float: left;
+    margin-bottom: 40px;
 }
 
 .good-item-description {
